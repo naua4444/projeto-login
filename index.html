@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
 <body>
     <section id="login">
@@ -15,7 +16,21 @@
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="login.py" method="post">
-                    
+                <p class="form">
+                    <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
+                </p>
+
+                <p class="form">
+                    <input type="password" name="Senha" id="isenha" placeholder="sua senha" required minlength="8">
+                </p>
+
+                <p id="submit">
+                    <input type="submit" value="Entrar">
+                </p>
+
+                <p id="normal">
+                    Esqueci a senha
+                </p>
             </form>
         </div>
     </section>
