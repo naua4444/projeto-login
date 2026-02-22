@@ -32,25 +32,25 @@ Grandes telas: acima de 1200px
     }
 
     section#login > div#formm {
-    flex: 1;          /* ocupa o espaço que sobrar */
-    padding: 10px;
+        flex: 1;          /* ocupa o espaço que sobrar */
+        padding: 10px;
     }
     
     section#login > div#formm p#submit input {
         font-size: 1em;
-        
     }
 
     section#login > div#formm p.form input,
     section#login > div#formm p#submit input,
     p#normal {
-    width: 100%;
-    margin: 0px;
+        width: 100%;
+        margin: 0px;
     }
-
 
     p#normal {
         font-size: 1em;
+        margin-top: 5px;
+        margin-bottom: 3px;
     }
     
 }
@@ -63,19 +63,19 @@ Grandes telas: acima de 1200px
     section#login {
         width: 950px;
         height: 370px;
-        display: flex;
-        flex-direction: row-reverse;
+        
     }
 
     section#login >div#formm {
-        flex-shrink: 0;
+        float: right;
         width: 470px;
     }
 
     section#login > div#imagem {
-        flex-shrink: 0;
+        float: left;
         width: 470px;
         height: 370px;
+        
     }
 
     section#login > div#formm p.form input {
