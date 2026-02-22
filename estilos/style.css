@@ -27,8 +27,8 @@ body {
 
 section#login {
    background-color: white;
-   width: 300px;
-   height: 600px;
+   width: 320px;
+   height: 630px;
    overflow: hidden;
    border-radius: 20px;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
@@ -57,17 +57,18 @@ section#login > div#formm {
 
 section#login > div#formm p.form {
     padding: 5px;
+    margin: 10px auto 0px auto;
 }
 
 section#login > div#formm p.form input {
     padding: 9px;
-    width: 260px;
+    width: 240px;
     border-radius: 5px;
 }
 
 section#login > div#formm p#submit {
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin: 15px auto;
     text-align: center;
 }
 
@@ -78,6 +79,7 @@ section#login > div#formm p#submit input {
     background-color: #49a09d;
     color: white;
     font-size: 1.2em;
+    cursor: pointer;
 }
 
 section#login > div#formm p#submit input:hover {
@@ -90,9 +92,9 @@ p#normal {
     padding: 7px;
     border-radius: 5px;
     width: 261px;
-    margin-top: 10px;
-    margin-left: 5px;
+    margin: 10px auto;
     font-size: 1.2em;
+    cursor: pointer;
     
 }
 
@@ -104,6 +106,16 @@ p#normal:hover {
 section#login > div#formm h1 {
     text-align: center;
     padding-bottom: 7px;
+}
+
+span {
+    color: white;
+}
+
+p.form {
+    background-color: #5f2c82;
+    border-radius: 5px;
+    margin: 4px;
 }
 
 

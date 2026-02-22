@@ -15,7 +15,7 @@ Grandes telas: acima de 1200px
     }
 
     section#login {
-        height: 360px;
+        height: 370px;
         width: 750px;
         display: flex;
     }
@@ -23,12 +23,13 @@ Grandes telas: acima de 1200px
     section#login > div#imagem {
         flex-shrink: 0;
         width: 250px;
-        height: 360px;
+        height: 370px;
         
     } 
 
     section#login > div#formm p.form input {
         width: 450px;
+        padding: 9px;
     }
 
     section#login > div#formm {
@@ -36,23 +37,39 @@ Grandes telas: acima de 1200px
         padding: 10px;
     }
     
-    section#login > div#formm p#submit input {
-        font-size: 1em;
+    section#login > div#formm p#submit {
+        margin: 15px;
     }
-
+    
     section#login > div#formm p.form input,
     section#login > div#formm p#submit input,
     p#normal {
-        width: 100%;
+        width: 90%;
         margin: 0px;
+    }
+    
+    section#login > div#formm p#submit input {
+        width: 80%;
+        margin: 0px;
+        font-size: 1.3em;
     }
 
     p#normal {
-        font-size: 1em;
-        margin-top: 5px;
-        margin-bottom: 3px;
+        font-size: 1.3em;
+        margin: 0px auto 0px auto;
+        width: 70%;
     }
     
+    span {
+        color: white;
+    }
+
+    p.form {
+        background-color: #5f2c82;
+        border-radius: 5px;
+        margin: 4px;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -62,7 +79,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 950px;
-        height: 370px;
+        height: 420px;
         display: flex;
         flex-direction: row-reverse;
     }
@@ -73,25 +90,39 @@ Grandes telas: acima de 1200px
 
     section#login > div#imagem {     
         width: 470px;
-        height: 370px;
+        height: 420px;
         
     }
 
     section#login > div#formm p.form input {
-        width: 440px;
+        width: 400px;
+        padding: 12px;
     }
 
     p#normal {
-        width: 450px;
-        font-size: 1em;
+        width: 380px;
+        font-size: 1.3em;
+        margin: 10px auto;
+        
     }
 
     section#login > div#formm p#submit {
-        margin-right: 194px;
+        margin: 15px auto;
+    }
+    
+    section#login > div#formm p#submit input {
+        font-size: 1.3em;
+        width: 410px;
     }
 
-    section#login > div#formm p#submit input {
-        font-size: 1em;
-        width: 450px;
+    span {
+        color: white;
+    }
+
+    p.form {
+        background-color: #5f2c82;
+        border-radius: 5px;
+        margin: 4px;
+        width: 100%;
     }
 }
