@@ -67,6 +67,10 @@ section#login > div#formm p.form input {
     background-color: #94cfcd;
 }
 
+section#login > div#formm p.form input:focus-within {
+    background-color: white;
+}
+
 section#login > div#formm p#submit {
     margin-top: 20px;
     margin: 15px auto;
