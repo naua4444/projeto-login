@@ -64,6 +64,7 @@ section#login > div#formm p.form input {
     padding: 9px;
     width: 240px;
     border-radius: 5px;
+    background-color: #94cfcd;
 }
 
 section#login > div#formm p#submit {
