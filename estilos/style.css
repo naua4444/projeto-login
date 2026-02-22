@@ -80,6 +80,10 @@ section#login > div#formm p#submit input {
     font-size: 1.2em;
 }
 
+section#login > div#formm p#submit input:hover {
+    background-color: #488886;
+}
+
 p#normal {
     text-align: center;
     border: 1px solid rgb(170, 201, 169);
@@ -100,7 +104,6 @@ p#normal:hover {
 section#login > div#formm h1 {
     text-align: center;
     padding-bottom: 7px;
-
 }
 
 
