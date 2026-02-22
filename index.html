@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
@@ -17,10 +18,16 @@
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
             <form action="login.py" method="post">
                 <p class="form">
+                    <span class="material-symbols-outlined">
+                    person
+                    </span> 
                     <input type="email" name="email" id="iemail" placeholder="seu e-mail" required>
                 </p>
 
                 <p class="form">
+                    <span class="material-symbols-outlined">
+vpn_key
+</span>
                     <input type="password" name="Senha" id="isenha" placeholder="sua senha" required minlength="8">
                 </p>
 
