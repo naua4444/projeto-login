@@ -38,7 +38,7 @@ section#login {
    
    transition: width 0.2s, height 0.2s;
    transition-timing-function: ease;
-   
+
    transform: translate(-50%, -50%);
 }
 
